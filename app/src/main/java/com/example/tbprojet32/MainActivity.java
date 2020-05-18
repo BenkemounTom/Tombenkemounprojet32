@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showList(List<Pokemon> pokemonList) {
+        //Todo afficher la lste de pokemon
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         // use this setting to
         // improve performance if you know that changes
