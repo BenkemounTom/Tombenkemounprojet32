@@ -1,4 +1,4 @@
-package com.example.tbprojet32;
+package com.example.tbprojet32.presentation.model;
 
 public class Pokemon {
     private String name;

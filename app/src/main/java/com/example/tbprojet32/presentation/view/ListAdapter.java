@@ -1,4 +1,4 @@
-package com.example.tbprojet32;
+package com.example.tbprojet32.presentation.view;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,6 +6,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.tbprojet32.R;
+import com.example.tbprojet32.presentation.model.Pokemon;
 
 import java.util.List;
 

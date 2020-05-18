@@ -1,4 +1,6 @@
-package com.example.tbprojet32;
+package com.example.tbprojet32.presentation.model;
+
+import com.example.tbprojet32.presentation.model.Pokemon;
 
 import java.util.List;
 

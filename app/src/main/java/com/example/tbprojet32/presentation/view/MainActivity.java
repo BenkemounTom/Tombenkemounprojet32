@@ -1,4 +1,4 @@
-package com.example.tbprojet32;
+package com.example.tbprojet32.presentation.view;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,12 +12,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.example.tbprojet32.R;
+import com.example.tbprojet32.data.PokeApi;
+import com.example.tbprojet32.presentation.model.Pokemon;
+import com.example.tbprojet32.presentation.model.RestPokemonResponse;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
