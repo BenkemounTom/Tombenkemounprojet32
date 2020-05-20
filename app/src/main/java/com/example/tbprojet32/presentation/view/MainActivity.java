@@ -22,6 +22,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         controler = new MainControler(
                 this,
-              new GsonBuilder().setLenient().create(),
+                new GsonBuilder().setLenient().create(),
                getSharedPreferences("applicationTB", Context.MODE_PRIVATE)
         );
         controler.onStart();
@@ -68,10 +69,10 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-       /* List<String> input = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
-            input.add("Test" + i);
-        }// define an adapter*/
+        //List<pok> input = new ArrayList<>();
+        //for (int i = 0; i < 100; i++) {
+           // input.add("Test" + i);
+        // define an adapter*/
         mAdapter= new ListAdapter(pokemonList);
         recyclerView.setAdapter(mAdapter);
     }
