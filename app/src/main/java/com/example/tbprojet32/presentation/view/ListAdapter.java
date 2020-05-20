@@ -12,6 +12,7 @@ import com.example.tbprojet32.presentation.model.Pokemon;
 
 import java.util.List;
 
+//todo ListAdapter
 public class ListAdapter  extends RecyclerView.Adapter<ListAdapter.ViewHolder>{
 
     private List<Pokemon> values;
