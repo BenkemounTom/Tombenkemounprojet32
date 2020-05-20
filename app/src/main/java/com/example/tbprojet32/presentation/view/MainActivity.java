@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.tbprojet32.R;
+import com.example.tbprojet32.Singletons;
 import com.example.tbprojet32.data.PokeApi;
 import com.example.tbprojet32.presentation.controler.MainControler;
 import com.example.tbprojet32.presentation.model.Pokemon;
@@ -47,8 +48,9 @@ public class MainActivity extends AppCompatActivity {
 
         controler = new MainControler(
                 this,
-                new GsonBuilder().setLenient().create(),
-               getSharedPreferences("applicationTB", Context.MODE_PRIVATE)
+                Singletons.getGson(),
+                Singletons.getSharedPreferences(getApplicationContext())
+            //   getSharedPreferences("applicationTB", Context.MODE_PRIVATE)
         );
         controler.onStart();
 

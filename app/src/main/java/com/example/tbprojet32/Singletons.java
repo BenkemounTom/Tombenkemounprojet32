@@ -1,5 +1,8 @@
 package com.example.tbprojet32;
 
+import android.content.Context;
+import android.content.SharedPreferences;
+
 import com.example.tbprojet32.data.PokeApi;
 import com.example.tbprojet32.presentation.Constants;
 import com.google.gson.Gson;
@@ -12,6 +15,7 @@ public class Singletons {
 
     private static Gson gsonInstance;
     private static PokeApi pokeApiInstance;
+    private static SharedPreferences sharedPreferencesInstance;
 
     public static Gson getGson() {
         if(gsonInstance == null ){
@@ -35,5 +39,13 @@ public class Singletons {
 
     }
 
+
+    public static SharedPreferences getSharedPreferences(Context context) {
+        if(sharedPreferencesInstance == null ){
+            sharedPreferencesInstance = context.getSharedPreferences("applicationTB", Context.MODE_PRIVATE);
+
+        }
+        return sharedPreferencesInstance;
+    }
 
 }
