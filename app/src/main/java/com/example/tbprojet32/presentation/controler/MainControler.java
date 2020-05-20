@@ -95,7 +95,8 @@ public class MainControler {
 
     }
 
-    public void OnItemClick(){
+    public void OnItemClick(Pokemon pokemon){
+        view.navigateToDetails(pokemon);
 
     }
 
