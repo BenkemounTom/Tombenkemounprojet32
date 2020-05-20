@@ -1,5 +1,6 @@
 package com.example.tbprojet32.presentation.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -78,7 +79,13 @@ public class MainActivity extends AppCompatActivity {
             }
 
     public void navigateToDetails(Pokemon pokemon) {
-        Toast.makeText(getApplicationContext(), "Navigation", Toast.LENGTH_SHORT).show();
+        Intent myIntent = new Intent(MainActivity.this, DetailActivity.class);
+        myIntent.putExtra("keyPokemon", Singletons.getGson().toJson(pokemon));
+
+        MainActivity.this.startActivity(myIntent);
+
+
+      //  Toast.makeText(getApplicationContext(), "Navigation", Toast.LENGTH_SHORT).show();
     }
 }
 
