@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EABDBD"
+    android:background="#B5E6EC"
     tools:context=".presentation.view.MainActivity">
 
 
@@ -30,14 +30,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="80dp"
-        android:layout_marginBottom="196dp"
         android:background="#7EF8F7F5"
         android:text="@string/detail_url"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
         app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/TypeofPokemon"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
 
     <TextView
         android:id="@+id/textView_image"
@@ -84,7 +84,7 @@
         app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textduPokemon"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.17000002" />
 
     <TextView
         android:id="@+id/TypeofPokemon"
