@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".presentation.view.DetailActivity" />
-        <activity android:name=".presentation.view.Menus" />
+       
     </application>
 
 </manifest>
