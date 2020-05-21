@@ -21,16 +21,16 @@
       },
       
       {"name":"charmander",
-       "url":"https://pokeapi.co/api/v2/pokemon/4/"
-     "type":"rat" 
+       "url":"https://pokeapi.co/api/v2/pokemon/4/",
+     "type" : "rat" 
       },
       
       {"name":"charmeleon",
-       "url":"https://pokeapi.co/api/v2/pokemon/5/"
+       "url":"https://pokeapi.co/api/v2/pokemon/5/",
       "type":"ambiance"},
       
       {"name":"charizard",
-       "url":"https://pokeapi.co/api/v2/pokemon/6/"
+       "url":"https://pokeapi.co/api/v2/pokemon/6/",
         "type":"bg"}
    ]
 }
