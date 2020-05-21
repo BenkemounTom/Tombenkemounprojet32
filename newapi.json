@@ -6,7 +6,7 @@
   
       {"name":"Pikachu",
        "url":"https://pokeapi.co/api/v2/pokemon/1/",
-       "type":"Electrique"
+       "type":"Electrique",
        "id":"1er Pokemon"
       },
       
@@ -24,7 +24,7 @@
       
       {"name":"Rattata",
        "url":"https://pokeapi.co/api/v2/pokemon/4/",
-        "type":"Souris"
+        "type":"Souris",
        "id":"4 ème Pokemon"
       },
       
