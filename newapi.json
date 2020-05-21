@@ -3,34 +3,153 @@
    "next":"https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20",
    "previous":null,
    "results":[
-      {
-         "name":"bulbasaur",
-         "url":"https://pokeapi.co/api/v2/pokemon/1/",
-         "image":"https://sh.wikipedia.org/wiki/Bulbasaur#/media/Datoteka:Bulbasaur.png",
-         "type":"Terre"
+  
+      {"name":"Pikachu",
+       "url":"https://pokeapi.co/api/v2/pokemon/1/",
+       "type":"Electrique"
+       "id":"1er Pokemon"
       },
-      {
-         "name":"ivysaur",
-         "url":"https://pokeapi.co/api/v2/pokemon/2/",
-         "image":"https://www.deviantart.com/andersonaas107/art/002-ivysaur-PNG-2-759445165",
-         "type":"Eau"
+      
+      {"name":"Sabelette",
+       "url":"https://pokeapi.co/api/v2/pokemon/2/",
+        "type":"Sable",
+       "id":"2 ème Pokemon"
       },
-      {"name":"venusaur",
+      
+      {"name":"Miaouss",
        "url":"https://pokeapi.co/api/v2/pokemon/3/",
-       "type" :"Eau"
+        "type":"Chat",
+       "id":"3 ème Pokemon"
+      },
+      
+      {"name":"Rattata",
+       "url":"https://pokeapi.co/api/v2/pokemon/4/",
+        "type":"Souris"
+       "id":"4 ème Pokemon"
+      },
+      
+       {"name":"Alakazam",
+       "url":"https://pokeapi.co/api/v2/pokemon/5/",
+        "type":"Psy",
+        "id":"5 ème Pokemon"
+       },
+      
+       {"name":"Mackogneur",
+       "url":"https://pokeapi.co/api/v2/pokemon/6/",
+        "type":"Colosse",
+        "id":"6 ème Pokemon"
+       },
+     
+      {
+        "name":"venusaur",
+       "url":"https://pokeapi.co/api/v2/pokemon/7/",
+       "type" :"Terre",
+       "id":"7 ème Pokemon"
       },
       
       {"name":"charmander",
-       "url":"https://pokeapi.co/api/v2/pokemon/4/",
-     "type" : "rat" 
+       "url":"https://pokeapi.co/api/v2/pokemon/8/",
+       "type" : "Feu" ,
+       "id":"8 ème Pokemon"
       },
       
       {"name":"charmeleon",
-       "url":"https://pokeapi.co/api/v2/pokemon/5/",
-      "type":"ambiance"},
+       "url":"https://pokeapi.co/api/v2/pokemon/9/",
+      "type":"Feu",
+       "id":"9 ème Pokemon"
+      },
       
       {"name":"charizard",
-       "url":"https://pokeapi.co/api/v2/pokemon/6/",
-        "type":"bg"}
+       "url":"https://pokeapi.co/api/v2/pokemon/10/",
+       "type":"Feu",
+       "id":"10 ème Pokemon"
+      },
+      
+      
+       {"name":"Draco",
+       "url":"https://pokeapi.co/api/v2/pokemon/11/",
+        "type":"Eau",
+        "id":"11 ème Pokemon"
+       },
+          {
+         "name":"bulbasaur",
+         "url":"https://pokeapi.co/api/v2/pokemon/12/",
+         "image":"https://sh.wikipedia.org/wiki/Bulbasaur#/media/Datoteka:Bulbasaur.png",
+         "type":"Terre",
+         "id":"12 ème Pokemon"
+      },
+      
+       {
+         "name":"ivysaur",
+         "url":"https://pokeapi.co/api/v2/pokemon/13/",
+         "image":"https://www.deviantart.com/andersonaas107/art/002-ivysaur-PNG-2-759445165",
+         "type":"Terre",
+         "id":"13 ème Pokemon"
+      },
+       {"name":"Stelix",
+       "url":"https://pokeapi.co/api/v2/pokemon/14/",
+        "type":"Squelette",
+        "id":"14 ème Pokemon"
+       },
+       {"name":"Nostanfer",
+       "url":"https://pokeapi.co/api/v2/pokemon/15/",
+        "type":"Oiseau",
+        "id":"15 ème Pokemon"
+       },
+       {"name":"Demollosse",
+       "url":"https://pokeapi.co/api/v2/pokemon/16/",
+        "type":"Chien/Loup",
+        "id":"16 ème Pokemon"
+       },
+       {"name":"Brasegali",
+       "url":"https://pokeapi.co/api/v2/pokemon/17/",
+        "type":"Ardent",
+        "id":"17 ème Pokemon"
+       },
+       {"name":"Tengalice",
+       "url":"https://pokeapi.co/api/v2/pokemon/18/",
+        "type":"Herbe",
+        "id":"18 ème Pokemon"
+       },
+       {"name":"Wailord",
+       "url":"https://pokeapi.co/api/v2/pokemon/19/",
+        "type":"Eau",
+        "id":"19 ème Pokemon"
+       },
+       {"name":"Draco",
+       "url":"https://pokeapi.co/api/v2/pokemon/20/",
+        "type":"Eau",
+        "id":"20 ème Pokemon"
+       },
+       {"name":"Cacturne",
+       "url":"https://pokeapi.co/api/v2/pokemon/21/",
+        "type":"Herbe",
+        "id":"21 ème Pokemon"
+       },
+       {"name":"Absol",
+       "url":"https://pokeapi.co/api/v2/pokemon/22/",
+        "type":"Ténèbre",
+        "id":"22 ème Pokemon"
+       },
+      
+       {"name":"Ecrapince",
+       "url":"https://pokeapi.co/api/v2/pokemon/23/",
+        "type":"Eau",
+        "id":"23 ème Pokemon"
+       },
+      
+       {"name":"Metalosse",
+       "url":"https://pokeapi.co/api/v2/pokemon/24/",
+        "type":"Eau/Rovheux",
+        "id":"24 ème Pokemon"
+       },
+      
+       {
+          "name":"Groudon",
+       "url":"https://pokeapi.co/api/v2/pokemon/25/",
+        "type":"Continent",
+        "id":"25 ème Pokemon"
+       },
+      
    ]
 }
