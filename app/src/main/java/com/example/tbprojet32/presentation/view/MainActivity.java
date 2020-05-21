@@ -48,19 +48,13 @@ public class MainActivity extends AppCompatActivity {
     public void showList(List<Pokemon> pokemonList) {
         //Todo afficher la lste de pokemon
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-
         recyclerView.setHasFixedSize(true);
-
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
 
 
 
-        //List<pok> input = new ArrayList<>();
-        //for (int i = 0; i < 100; i++) {
-           // input.add("Test" + i);
-        // define an adapter*/
         mAdapter= new ListAdapter(pokemonList, new ListAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Pokemon item) {
@@ -72,8 +66,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
     public void showError() {
                 Toast.makeText(getApplicationContext(), "API Errorrrr", Toast.LENGTH_SHORT).show();
             }
@@ -81,12 +73,20 @@ public class MainActivity extends AppCompatActivity {
     public void navigateToDetails(Pokemon pokemon) {
         Intent myIntent = new Intent(MainActivity.this, DetailActivity.class);
         myIntent.putExtra("keyPokemon", Singletons.getGson().toJson(pokemon));
-
         MainActivity.this.startActivity(myIntent);
 
-
-      //  Toast.makeText(getApplicationContext(), "Navigation", Toast.LENGTH_SHORT).show();
+        //  Toast.makeText(getApplicationContext(), "Navigation", Toast.LENGTH_SHORT).show();
     }
+    /*
+    public void navigateToMenus(){
+
+        Intent myMenus = new Intent(MainActivity.this, Menus.class);
+        //  myIntent.putExtra("keyPokemon", Singletons.getGson().toJson(pokemon));
+        MainActivity.this.startActivity(myMenus);
+
+    }*/
+
+
 }
 
 

@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">TBprojet32</string>
     <string name="detail_texte">Ecran Details!</string>
+    <string name="detail_url">url</string>
+    <string name="buttonmenu">Button</string>
+    <string name="textmenus">Welcome to the AP</string>
+    <string name="detail_txt_menus_new">Ecran Menus</string>
+    <string name="button_Menu">Salut</string>
+    <string name="detail_image">image</string>
+    <string name="poki"> Le nom du Pokemon est: </string>
+    <string name="type">Le Type du pokemon est :</string>
+    <string name="pokemon_type">Pokemon Type!</string>
+    <string name="texteidentification">TextId</string>
+    <string name="texteurlnote">URL du Pokemon :</string>
 </resources>

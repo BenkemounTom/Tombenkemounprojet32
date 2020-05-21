@@ -76,7 +76,7 @@ public class ListAdapter  extends RecyclerView.Adapter<ListAdapter.ViewHolder>{
 
         final Pokemon currentPokemon = values.get(position);
         holder.txtHeader.setText(currentPokemon.getName());
-        holder.txtFooter.setText(currentPokemon.getUrl());
+        holder.txtFooter.setText(currentPokemon.getId());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {

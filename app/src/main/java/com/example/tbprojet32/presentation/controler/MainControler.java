@@ -23,9 +23,7 @@ public class MainControler {
     private Gson gson;
     private MainActivity view;
 
-    public MainControler(){
 
-    }
 
     public MainControler(MainActivity mainActivity, Gson gson, SharedPreferences sharedPreferences) {
         this.view=mainActivity;
@@ -97,6 +95,7 @@ public class MainControler {
 
     public void OnItemClick(Pokemon pokemon){
         view.navigateToDetails(pokemon);
+       // view.navigateToMenus();
 
     }
 
