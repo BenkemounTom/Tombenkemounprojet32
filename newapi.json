@@ -14,6 +14,23 @@
          "url":"https://pokeapi.co/api/v2/pokemon/2/",
          "image":"https://www.deviantart.com/andersonaas107/art/002-ivysaur-PNG-2-759445165",
          "type":"Eau"
-      }
+      },
+      {"name":"venusaur",
+       "url":"https://pokeapi.co/api/v2/pokemon/3/",
+       "type" :"Eau"
+      },
+      
+      {"name":"charmander",
+       "url":"https://pokeapi.co/api/v2/pokemon/4/"
+     "type":"rat" 
+      },
+      
+      {"name":"charmeleon",
+       "url":"https://pokeapi.co/api/v2/pokemon/5/"
+      "type":"ambiance"},
+      
+      {"name":"charizard",
+       "url":"https://pokeapi.co/api/v2/pokemon/6/"
+        "type":"bg"}
    ]
 }
