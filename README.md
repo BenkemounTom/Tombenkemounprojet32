@@ -9,12 +9,19 @@ Cette Application affiche une liste d'éléments et utilise mon Api(newApi.json)
 Consignes Respectées :
 
 Ecran avec une liste d’éléments
+
 Ecran avec le détail d’un élément
+
 Appel WebService à une API Rest
+
 Stockage de données en cache
+
 Singleton
+
 Design
+
 Principes (SOLID)
+
 Mise en place d'une architecture MVC avec Design Paterns
 
 
